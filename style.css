@@ -1,20 +1,11 @@
 p {
-  color: red;
-  background-color: green;
+    color: rgb(129, 23, 51);
+    background-color: green;
 }
 
-h2 {
-  color: blue;
-}
-
-nav ul{
-   background-color: aqua; 
-}
-
-section{
-  border: 2px #000 solid;
-  margin: 40px;
+section {
+  color: rgb(23, 37, 129);
+  border: 2px red solid;
+  margin: 20px;
   padding: 20px;
-  background-color: blueviolet;
 }
-
