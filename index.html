@@ -4,17 +4,21 @@
 <head>
   <title>Mi portafolio personal</title>
   <link rel="stylesheet" href="style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
 </head>
 
 <body>
   <header>
     <nav>
-      <ul>
-        <a href="#acerca-de-mi">Acerca de mí</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#experiencia">Experiencia</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#contacto">Contacto</a>
+      <ul class="icono">
+        <a class="menu-item" href="#acerca-de-mi">Acerca de mí</a>
+        <a class="menu-item" href="#habilidades">Habilidades</a>
+        <a class="menu-item" href="#experiencia">Experiencia</a>
+        <a class="menu-item" href="#proyectos">Proyectos</a>
+        <a class="menu-item" href="#contacto">Contacto</a>
       </ul>
     </nav>
     
@@ -26,7 +30,7 @@
   <main>
     <section id="acerca-de-mi">
       <h2>Acerca de mí</h2>
-      <p style="background-color: aquamarine;">
+      <p>
         Como desarrollador web junior, fusiono mi pasión por el diseño y la
         programación para crear experiencias web excepcionales. Me esfuerzo
         por cada línea de código y cada detalle de diseño para asegurarme de
@@ -38,12 +42,12 @@
     </section>
     <section id="habilidades">
       <h2>Habilidades</h2>
-      <ol>
+      <ul>
         <li>JavaScript</li>
         <li>CSS</li>
         <li>HTML</li>
         <li>Git</li>
-      </ol>
+      </ul>
     </section>
     <section id="experiencia">
       <h2>Experiencia</h2>
@@ -62,7 +66,7 @@
         </li>
       </ul>
     </section>
-    <section>
+    <section id="proyectos">
       <h2>Proyectos</h2>
       <ul>
         <li>
@@ -77,19 +81,23 @@
         <li>Email: ejemplo@correo.com</li>
         <li>Teléfono: 123-456-7890</li>
         <li>
-          Redes Sociales:
-          <ul>
+          
+          <a class="icono"  href="https://www.facebook.com/tucuenta"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/600px-2023_Facebook_icon.svg.png" width="30"/></a>
+          <a class="icono" href="https://www.facebook.com/tucuenta"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/1134px-X_logo_2023.svg.png" width="30"/></a>
+          <a class="icono" href="https://www.facebook.com/tucuenta">Facebook</a>
+          <ul id="sociales">
             <li>
-              <a href="https://www.facebook.com/tucuenta">Facebook</a>
+              <a href="https://www.facebook.com/tucuenta" class="fa fa-facebook"></a>
             </li>
             <li>
-              <a href="https://twitter.com/tucuenta">Twitter</a>
+              <a href="https://twitter.com/tucuenta" class="fa fa-twitter"></a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/tucuenta">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/tucuenta" class="fa fa-linkedin"></a>
             </li>
             <!-- Agrega más redes sociales si lo deseas -->
           </ul>
+          
         </li>
       </ul>
     </section>

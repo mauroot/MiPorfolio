@@ -1,11 +1,151 @@
+/*body{
+    background-color: blueviolet;
+}
+
 p {
     color: rgb(129, 23, 51);
     background-color: green;
+    font-weight: bold;
 }
 
 section {
   color: rgb(23, 37, 129);
-  border: 2px red solid;
+  border: 3px red solid;
   margin: 20px;
   padding: 20px;
 }
+
+#acerca-de-mi {
+  background-color: green;
+}
+
+section a{
+  margin: 10px;
+}*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  color: #3e363f;
+  padding-top: 70px;
+}
+
+nav {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  display: inline-block;
+}
+
+.menu-item:hover {
+  background-color: #ddd;
+  transition: all 0.5s ease-in-out;
+}
+
+header {
+  background-color: rgba(29, 57, 157, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+main{
+  padding: 10%;
+}
+
+section {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+#acerca-de-mi {
+  text-align: justify;
+}
+
+#habilidades ul {
+  list-style: none;
+  padding: 0;
+}
+
+#habilidades ul li {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid #504f4f;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+#experiencia ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#experiencia ul li {
+  margin-bottom: 10px;
+}
+
+#proyectos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#proyectos ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+#proyectos ul li a:hover {
+  text-decoration: underline;
+}
+
+#sociales {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#sociales li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.fa {
+  color: #333;
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
